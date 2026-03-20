@@ -2,51 +2,59 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>
-        Meu cartão de visitas
-    </title>
+    <title>Title</title>
+    <!-- css externo -->
+    <!-- texto é vermelho -->
+    <link rel="stylesheet" href="principal.css">
 </head>
 <body>
-<h1>Página do Henry</h1>
+<h1 class="verdes">Bem-vindo à minha página!</h1>
 
-<p>asdaskdkjasdaksjd as djasdjhasjd asdashdsjad asdjhasdjh
-    uasdhuasdu  asduasudhua sdu asudsuaduhasu asd
-    ausdhuasudhasduhasdhu a sduasdhausdhuasd uashdhuasduashd
-</p>
+<p class="verdes">Olá mundo!</p>
 
-<h2>Links em HTML</h2>
+<p id="paragrafo2">Henry.</p>
 
-<h2>Listas em HTML</h2>
-
-<p>Existem dois tipos de lista em HTML: ordenadas e não-ordenadas.</p>
-
-<ol>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-    <ol>
-        <li>Item 4</li>
-    </ol>
-</ol>
-
-<ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-</ul>
+<a href="contato.html">Contato</a>
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
-<a href="https://instagram.com">
-    <img src="https://conteudo.imguol.com.br/c/esporte/ab/2026/03/08/skatista-rayssa-leal-compete-no-campeonato-mundial-de-street-em-sao-paulo-sp-1772981255565_v2_450x450.jpg">
-</a>
+<table> <!-- abre tag de tabela -->
+    <thead> <!-- denota cabeçalho -->
+    <tr> <!-- table row, linha -->
+        <th>Nome</th>  <!-- table head, célula do cabeçalho -->
+        <th>Ano</th>
+        <th id="bilheteria">Bilheteria</th>
+    </tr>
+    </thead>
+    <tbody> <!-- table body, corpo da tabela -->
+        <tr> <!-- table row -->
+            <td>Mad Max: Fury Road</td> <!-- table data -->
+            <td>2015</td>
+            <td>380 milhões</td>
+        </tr>
+        <tr class="linha-cinza">
+            <td>Platoon</td>
+            <td>1986</td>
+            <td>138 milhões</td>
+        </tr>
+        <tr>
+            <td>Harry Potter</td>
+            <td>2001</td>
+            <td>1000 milhões</td>
+        </tr>
+        <tr class="linha-cinza">
+            <td>Titanic</td>
+            <td>1997</td>
+            <td>2200 milhões</td>
+        </tr>
+        <tr>
+            <td>Homem aranha</td>
+            <td>2002</td>
+            <td>825 milhões</td>
+        </tr>
+    </tbody>
+</table>
 
 </body>
 </html>

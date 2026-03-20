@@ -1,0 +1,33 @@
+p, h1 {
+    color: darkblue;
+}
+
+/* table header, cabeçalho */
+th {
+    background-color: lightblue;
+}
+/* seletor de id */
+#bilheteria {
+   background-color: lightgrey;
+}
+
+/* seletor de classe */
+.linha-cinza {
+    background-color: lightgrey;
+}
+
+/* seletor de classe */
+.verdes {
+    color: darkgreen;
+}
+
+/* seletor de id */
+#paragrafo2 {
+    color: purple;
+}
+
+/* seletor de pseudoclasse */
+a:hover {
+    background-color: darkblue;
+    color: white;
+}

@@ -1,0 +1,13 @@
+th {
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+}
